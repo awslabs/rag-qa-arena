@@ -2,7 +2,10 @@
 
 model1=gpt-4o
 
+# you need to update your access key here
 openai_key=''
+
+
 eval_model=gpt-4-0125-preview
 
 n_passages=5
