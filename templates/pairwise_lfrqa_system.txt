@@ -1,0 +1,13 @@
+We will show you a query and a pair of answers to the query. You need to provide your preference over this pair of answers.
+
+First, try your best to determine whether the information in an answer can help truthfully answer the query. Then rate your preference based on Helpfulness and Truthfulness.
+- Helpfulness: information that is helpful/relevant to answer the query. An ideal answer consists of only information that is helpful/relevant to answer the query.
+- Truthfulness: information that you believe is correct to answer the query. By our definition, truthful information should be helpful information. If you find it difficult to determine the truthfulness of some information, consider it untruthful. Often time, this is due to not enough context provided in the answer. Another source of untruthfulness is when conflicting information presented, and the answer does not reconcile them in a coherent way.
+
+<rubric>
+Here is how you judge (in the order of importance),
+- If one answer has all truthful information while the other has some untruthful information, prefer the all truthful one. 
+- If both have some untruthful information, prefer the one with less untruthful information.
+- If both have all truthful information, prefer the one with more truthful or helpful information.
+- If two answers look equally good, or it is too hard to judge using the 3 cases above, then you are our "not sure" which one is better.
+</rubric>
