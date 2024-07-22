@@ -1,0 +1,12 @@
+--extra-index-url https://download.pytorch.org/whl/cu117
+torch==1.13.0+cu117
+torchvision==0.14.0+cu117
+torchaudio==0.13.0
+configobj==5.0.8
+openai==1.8.0
+bitsandbytes==0.43.1
+transformers==4.41.0
+datasets
+jinja2
+numpy==1.26.3
+scikit-learn
