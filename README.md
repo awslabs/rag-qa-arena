@@ -99,6 +99,18 @@ In `data/human_eval`, we share two types of evaluation results,
 To check results, simply run `python code/compute_correlation.py`.
 
 
+## Citation
+```
+@article{han2024ragqaarena,
+  title={RAG-QA Arena: Evaluating Domain Robustness for Long-form Retrieval Augmented Question Answering},
+  author={Rujun Han and Yuhao Zhang and Peng Qi and Yumo Xu and Jenyuan Wang and Lan Liu and William Yang Wang and Bonan Min and Vittorio Castelli},
+  year={2024},
+  journal={arXiv preprint arXiv:2407.13998},
+  url={https://arxiv.org/abs/2407.13998}
+}
+```
+
+
 ## Security
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
