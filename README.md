@@ -5,7 +5,7 @@
 ### 0.1 Install Environment
 ```
 conda create -n ragqa-arena python=3.10.0
-pip instaill -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### 0.2 Download Data
