@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ### 0.2 Download Data
 Data can be downloaded here: https://drive.google.com/drive/folders/1qhKEbGgBfrPzqGvhnzVoTvi3a6tiMyDP?usp=sharing. Save them into the `data/` folder.
 
-Query with citation can be downloaded in `data/annotations_{domain}_with_citation.jsonl`. The in-text citations are included in the field `"faithful_answer_w_citation"`, in the form of `[1, 2, 3]`, which indicate the corresponding index of the annotated gold documents, which are shown in the format of `doc_id` that can be mapped when the document source is created (see below).
+Query with citation can be downloaded in `data/annotations_{domain}_with_citation.jsonl`. The in-text citations are included in the field `"faithful_answer_w_citation"`, in the form of `[1, 2, 3]`, which indicate the corresponding index of the annotated gold documents, which are shown in the format of `doc_id` that can be mapped to the `doc_id` corresponding to [RobustQA document source](https://github.com/awslabs/robustqa-acl23).
 Citations are also availble in the form of list of list in `"citation_numbers"`, which are listed in the same order of in-text citations.
 
 There is a minor amount difference in `data/annotations_{domain}_with_citation.jsonl` with [previous version](https://drive.google.com/drive/folders/1qhKEbGgBfrPzqGvhnzVoTvi3a6tiMyDP?usp=sharing) that does not have citation annotation (statistics shown below). Please proceed with the version that satisfy your use case.
